@@ -113,6 +113,15 @@ class LanguageBox {
      * @public
      * @returns {void}
      */
+    ta_onclick() {
+    this._language = "ta";
+    this.hide();
+    }
+
+    /**
+     * @public
+     * @returns {void}
+     */
     hi_onclick() {
         this._language = "hi";
         this.hide();
